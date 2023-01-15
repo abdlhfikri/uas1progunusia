@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Dulu</title>
+
+    <link rel="stylesheet" href="./css/slogin.css">
+</head>
+<body>
+    <div class="center">
+        <img src="./img/logo.png" alt="img">
+        <h1>Login Garuda</h1>
+        <form method="post">
+            <div class="txt-field">
+                <input type="text" id="username" required>
+                <label>Username</label>
+            </div>
+            <div class="txt-field">
+                <input type="password" id="password" required>
+                <label>Password</label>
+            </div>
+            <div class="pass">Lupa Password</div>
+            <input type="submit" value="Login" onclick="auth()"/>
+            <div class="signup-link">Belum Punya Akun? <a href="#">Signup</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="./js/lscript.js"></script>
+</body>
+</html>
